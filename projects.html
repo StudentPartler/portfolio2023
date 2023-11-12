@@ -7,47 +7,44 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body style="background-color:lightgrey;">
 
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div class="w3-bar w3-wide w3-padding w3-card" style="background-color: #796d62!important;">
-      <a href="index.html" class="w3-bar-item w3-button"><b>e-PortFolio</b></a>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-wide w3-padding w3-card" style="background-color: rgb(121, 120, 150)!important;">
+    <a href="index.html" class="w3-bar-item w3-button"><b>e-PortFolio</b></a>
 
-      <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-large w3-hover-dark-grey w3-large"
-        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
-        <i class="fa fa-bars"></i></a>
-
+    <a class="w3-bar-item w3-button w3-hide-large w3-right w3-padding-large w3-hover-dark-grey w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i></a>
 
 
-      <!-- Float links to the right. Hide them on small screens -->
-      <div class="w3-right w3-hide-small">
-        <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Home</a>
-        <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Projects</a>
-        <a href="tutorial.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Education</a>
-        <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Contact Me</a>
-      </div>
-    </div>
-
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-large w3-show">
-      <a href="index.html" class="w3-bar-item w3-dark-grey w3-button w3-padding-large ">Home</a>
-      <a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
-      <a href="tutorial.html" class="w3-bar-item w3-button w3-padding-large">Education</a>
-      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
+   
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Home</a>
+      <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Projects</a>
+      <a href="upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Upcoming Initiatives</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Contact Me</a>
     </div>
   </div>
 
-  <!-- Header -->
-  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="image/header2.png" alt="Architecture" width="1500" height="1000">
-    <div class="w3-display-middle w3-margin-top w3-center">
-      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-yellow w3-opacity-min"
-          style="background-color: #6f645b92!important;">
-          <span class="w3-hide-small w3-text-black"><b> ERIC's</b> e-PortFolio</span></h1></span>
-    </div>
-  </header>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-large w3-show">
+		<a href="index.html" class="w3-bar-item w3-dark-grey w3-button w3-padding-large ">Home</a>
+		<a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+		<a href="upcoming.html" class="w3-bar-item w3-button w3-padding-large">Upcoming Initiatives</a>
+		<a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
+	</div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image w3-centered" src="image/header3.jpg" alt="Architecture" width="1800" height="1000">
+  <div class="w3-display-middle w3-margin-top w3-center">
+  <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-yellow w3-opacity-min" style="background-color:rgba(124, 122, 176, 0.134)!important; border-radius: 10px!important;">
+    <span class="w3-hide-small w3-text-black"><b>ERIC's</b> e-PortFolio</span></h1></span> 
+  </div>
+</header>
 
   <!-- Page content -->
   <div class="w3-content w3-padding" style="max-width:1564px">
@@ -57,35 +54,39 @@
       <h3 class="w3-border-bottom w3-border-brown w3-padding-16">Projects</h3>
     </div>
 
+   <!-- Documentations -->
     <div class="w3-row-padding">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
           <div class="w3-display-topleft w3-black w3-padding">Software Development</div>
           <a href="#softDev"><img src="image/SoftDev.jpg" alt="House" style="width:100%;height: 225px;"></a>
         </div>
-        <p>This module has taught me the basic of computer coding of different data types in Java language. I have been
-          able to code some simple programmes like calculation of even and odd numbers and so on. In my second year I
-          will go even deeper with more complex programming task.</p>
+        <p>This Java-based project features the creation, deletion, and management of objects which are serialized for 
+          later use. It illustrates the application of RMI in remote procedure calls between a server and a client with 
+          a GUI interface allows viewing,  and hiding objects. </p>
       </div>
       
+     
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Mobile Apps & Connected Device</div>
-          <a href="#mobileApps"><img src="image/MobileApps & Connected Device.JPG" alt="House"
+          <div class="w3-display-topleft w3-black w3-padding">Connected Device</div>
+          <a href="#connectedDevice"><img src="image/MobileApps & Connected Device.JPG" alt="House"
               style="width:100%;height: 225px;"></a>
         </div>
-        <p>I have been able to learn how computer and Mobile devices can communicate with each other through some
-          protocols and security. Coding with Python language at your desk can control smart devices in your house or
-          even to any part of the world. </p>
+        <p>The goal of this project is to develop a simple java client app that monitors the temperature and humidity in 
+          a room and will be measured using sensors from both the Sensehat and the Raspberry Pi. 
+          The sensors data will then be collected on the app console (Mobile Phone) though an MQTT Broker. </p>
       </div>
 
+   
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Digital Media</div>
-          <a href="#digitalMedia"><img src="image/Digital_Media.jpg" alt="House" style="width:100%;height: 225px;"></a>
+          <div class="w3-display-topleft w3-black w3-padding">Mobile App</div>
+          <a href="#mobileApps"><img src="image/mobileApp.jpg" alt="House" style="width:100%;height: 225px;"></a>
         </div>
-        <p>This module has enlightened my path in every aspect. From photo editing to audio & video compression I have
-          learned the solid foundation of Digitization and Image Optimization that has greatly helped me in my projects.
+        <p>Two distinct mobile app projects have been undertaken. The first project involves the development of a GPS locator, with 
+          the added feature of the ability to switch between different environmental themes. The second app, on the other hand, is a 
+          fully functional MP3 media player that offers core functionalities such as play, pause, stop, and skip to the next song.  
         </p>
       </div>
 
@@ -94,16 +95,15 @@
           <div class="w3-display-topleft w3-black w3-padding">Web Development</div>
           <a href="#webDev"><img src="image/Web_Dev.png" alt="House" style="width:100%;height: 225px;"></a>
         </div>
-        <p>Learning HTML and CSS I have been able to build beautiful websites with different styles and colours, create
-          links to other pages, resizing images or implementing beautiful backgrounds. I am learning to build complex
-          websites with JavaScript to perform some Maths Calculations.</p>
+        <p>The Web Development project entails the creation of an SQL database that establishes a connection with the server through 
+          tools such as XAMPP. This allows for the manipulation of data on the website using PHP scripts for both making updates and 
+          retrieving information..</p>
       </div>
     </div>
     <p class="w3-tiny w3-padding w3-opacity-min" style="background-color: #6f645b92!important;width: 282px;"><i>* Click
         on the Module Images to reveal projects</i></p>
     <!-- End page content -->
   </div>
-
 
 
   <!--Projects Section-->
@@ -114,48 +114,67 @@
 
     <div class="w3-container w3-padding-32" id="softDev">
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Software Development</h3>
-      <div class="w3-container w3-padding-48 w3-card">
+      <div class="w3-container w3-padding-48 w3-card w3-hover-dark-grey w3-center">
         <h5 style="text-align:center;">Java Program</h5>
-        <img src="image/projects/javaproject.png" alt="Java code" style="max-width:100%; height:auto;">
-        <p class="w3-tiny"><i>A Java program code to determine if a year you enter is a Leap Year</i></p>
+        <video width="75%" height="75%" controls="">
+          <source src="video/Softdev_Cast.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>A Java project from a server/client with RMI </i></p>
+      </div>
+    </div>
+
+
+    <div class="w3-container w3-padding-32" id="connectedDevice">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Connected Device</h3>
+      <div class="w3-container w3-padding-48 w3-card">
+        <h5 style="text-align:center;">MQTT Broker</h5>
+        <div class="w3-center">
+          <div class="w3-row">
+              <img src="image/MQTT_Poster.png" alt="connectedDevice" style="max-width:100%; height:auto;">          
+          </div>  
+          <p class="w3-tiny"><i>Humidity & temperature sensor readings from Raspberry Pi, collection of data to a Mobile App </i></p>     
+        </div>
+       
+        
       </div>
     </div>
 
     <div class="w3-container w3-padding-32" id="mobileApps">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Mobile Apps & Connected Device</h3>
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Mobile App</h3>
       <div class="w3-container w3-padding-48 w3-card">
-        <h5 style="text-align:center;">Cisco Packet Connected Device</h5>
-        <div class="w3-center">
-          <img src="image/projects/Cisco Packet Simulation to connect Home Smart devices.png" alt="MobileApps" style="max-width:100%; height:auto;">
-        </div>
-        <p class="w3-tiny"><i>A secure Cisco Packet Home Network using security protocol to connect different devices to the internet </i></p>
+        <h5 style="text-align:center;">Mobile Apps (GPS locator & Mp3 player)</h5>
+        <div class="w3-center w3-row">
+          <div class="w3-half">
+              <img src="image/GpsApps.jpg" alt="MobileApps" class="w3-image" style="width:70%; height:600px;">
+          </div>
+          <div class="w3-half">
+              <img src="image/mediaPlayer.jpg" alt="MobileApps" class="w3-image" style="width:70%; height:600px;">
+          </div>
       </div>
-    </div>
-
-    <div class="w3-container w3-padding-32" id="digitalMedia">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Digital Media</h3>
-      <div class="w3-container w3-padding-48 w3-card">
-        <h5 style="text-align:center;">Gimp Image Editing</h5>
-        <div class="w3-center">
-          <img src="image/projects/digitalMediaproject.png" alt="Gimp-edited image" style="max-width:100%; height:auto;">
-        </div>
-        <p class="w3-tiny"><i>A project on Digital Media about editing images with blurry background image </i></p>
+      <p class="w3-tiny w3-center"><i>Two seperate Mobile Apps projects (GPS locator and an mp3 music player) </i></p>
+       
       </div>
     </div>
 
     <div class="w3-container w3-padding-32" id="webDev">
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Web Development</h3>
-      <div class="w3-container w3-padding-48 w3-card">
-        <h5 style="text-align:center;">Fraction Calculator Website</h5>
-        <div class="w3-center">
-          <img src="image/projects/WebDevproject.png" alt="Website" style="max-width:100%; height:auto;">
-        </div>
-        <p class="w3-tiny"><i>Fraction Calculator website using JavaScript</i></p>
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Website accesing SQL Database & Server</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/WebDev.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>Web Development project manipulation of data on the website using PHP scripts</i></p>
       </div>
     </div>
 
     <!-- End page content -->
   </div>
+
+  <style>
+    a:hover {
+      color: red;
+    }
+  </style>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16 w3-tiny">
