@@ -23,7 +23,7 @@
     <div class="w3-right w3-hide-small">
       <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Home</a>
       <a href="projects.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Projects</a>
-      <a href="upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Upcoming Initiatives</a>
+      <a href="upcoming.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Final-Year Project</a>
       <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium">Contact Me</a>
     </div>
   </div>
@@ -32,7 +32,7 @@
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-large w3-show">
 		<a href="index.html" class="w3-bar-item w3-dark-grey w3-button w3-padding-large ">Home</a>
 		<a href="projects.html" class="w3-bar-item w3-button w3-padding-large">Projects</a>
-		<a href="upcoming.html" class="w3-bar-item w3-button w3-padding-large">Upcoming Initiatives</a>
+		<a href="upcoming.html" class="w3-bar-item w3-button w3-padding-large">Final Year Project</a>
 		<a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Me</a>
 	</div>
 </div>
@@ -61,9 +61,12 @@
           <div class="w3-display-topleft w3-black w3-padding">Software Development</div>
           <a href="#softDev"><img src="image/SoftDev.jpg" alt="House" style="width:100%;height: 225px;"></a>
         </div>
-        <p>This Java-based project features the creation, deletion, and management of objects which are serialized for 
-          later use. It illustrates the application of RMI in remote procedure calls between a server and a client with 
-          a GUI interface allows viewing,  and hiding objects. </p>
+        <p>
+          The Java projects use object serialization for persistent data storage, RMI for remote communication
+          between server and client, and JDBC for connecting to a relational database. It allows users to manage 
+          serialized objects and interact with database records through a user-friendly graphical interface.
+          This integration of technologies ensures efficient data handling and interaction capabilities within
+          the application. </p>
       </div>
       
      
@@ -75,7 +78,8 @@
         </div>
         <p>The goal of this project is to develop a simple java client app that monitors the temperature and humidity in 
           a room and will be measured using sensors from both the Sensehat and the Raspberry Pi. 
-          The sensors data will then be collected on the app console (Mobile Phone) though an MQTT Broker. </p>
+          The sensors data will then be collected on the app console (Mobile Phone) though an MQTT Broker. Other 
+          projects include IOT & Aotomation and Data collection from devices send to Twitter. </p>
       </div>
 
    
@@ -84,48 +88,60 @@
           <div class="w3-display-topleft w3-black w3-padding">Mobile App</div>
           <a href="#mobileApps"><img src="image/mobileApp.jpg" alt="House" style="width:100%;height: 225px;"></a>
         </div>
-        <p>Two distinct mobile app projects have been undertaken. The first project involves the development of a GPS locator, with 
-          the added feature of the ability to switch between different environmental themes. The second app, on the other hand, is a 
-          fully functional MP3 media player that offers core functionalities such as play, pause, stop, and skip to the next song.  
+        <p>The Mini Mp3 Player Mobile App project is a comprehensive MP3 media player application designed to provide 
+          essential functionalities including playback controls such as play, pause, stop etc. 
+          It offers users a robust and intuitive platform for managing and enjoying their music collections seamlessly.
         </p>
       </div>
 
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
-          <div class="w3-display-topleft w3-black w3-padding">Web Development</div>
+          <div class="w3-display-topleft w3-black w3-padding">Web Development & Databases</div>
           <a href="#webDev"><img src="image/Web_Dev.png" alt="House" style="width:100%;height: 225px;"></a>
         </div>
         <p>The Web Development project entails the creation of an SQL database that establishes a connection with the server through 
           tools such as XAMPP. This allows for the manipulation of data on the website using PHP scripts for both making updates and 
-          retrieving information..</p>
+          retrieving information. Another mini project include a non relational database such as Neo4j.</p>
       </div>
     </div>
-    <p class="w3-tiny w3-padding w3-opacity-min" style="background-color: #6f645b92!important;width: 282px;"><i>* Click
-        on the Module Images to reveal projects</i></p>
+    <!-- <p class="w3-tiny w3-padding w3-opacity-min" style="background-color: #6f645b92!important;width: 282px;"><i>* Click
+        on the Module Images to reveal projects</i></p> -->
+
     <!-- End page content -->
   </div>
 
 
   <!--Projects Section-->
   <div class="w3-content w3-padding" style="max-width:1564px">
-    <div class="w3-border-bottom w3-border-brown w3-padding-16"></div>
+    <div class="w3-border-bottom w3-border-purple w3-padding-16"></div>
 
 
-
+          <!-- SoftDev-->
     <div class="w3-container w3-padding-32" id="softDev">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Software Development</h3>
-      <div class="w3-container w3-padding-48 w3-card w3-hover-dark-grey w3-center">
-        <h5 style="text-align:center;">Java Program</h5>
+      <h3 class="w3-border-bottom w3-border-purple w3-padding-16">Software Development</h3>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Java API using Remote Method Invocation (RMI)</h5>
         <video width="75%" height="75%" controls="">
           <source src="video/Softdev_Cast.mp4" type="video/mp4">
         </video>
         <p class="w3-tiny"><i>A Java project from a server/client with RMI </i></p>
       </div>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Java Database Connectivity (JDBC)</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/Jdbc.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>A mini Java project in order to connect to MySQL database and execute SQL queries, and data manipulation. </i></p>
+      </div>
+
     </div>
 
-
+         <!-- Connected Device -->
     <div class="w3-container w3-padding-32" id="connectedDevice">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Connected Device</h3>
+      <h3 class="w3-border-bottom w3-border-purple w3-padding-16">Connected Device</h3>
+
       <div class="w3-container w3-padding-48 w3-card">
         <h5 style="text-align:center;">MQTT Broker</h5>
         <div class="w3-center">
@@ -133,38 +149,82 @@
               <img src="image/MQTT_Poster.png" alt="connectedDevice" style="max-width:100%; height:auto;">          
           </div>  
           <p class="w3-tiny"><i>Humidity & temperature sensor readings from Raspberry Pi, collection of data to a Mobile App </i></p>     
-        </div>
-       
-        
+        </div> 
       </div>
-    </div>
 
-    <div class="w3-container w3-padding-32" id="mobileApps">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Mobile App</h3>
-      <div class="w3-container w3-padding-48 w3-card">
-        <h5 style="text-align:center;">Mobile Apps (GPS locator & Mp3 player)</h5>
-        <div class="w3-center w3-row">
-          <div class="w3-half">
-              <img src="image/GpsApps.jpg" alt="MobileApps" class="w3-image" style="width:70%; height:600px;">
-          </div>
-          <div class="w3-half">
-              <img src="image/mediaPlayer.jpg" alt="MobileApps" class="w3-image" style="width:70%; height:600px;">
-          </div>
-      </div>
-      <p class="w3-tiny w3-center"><i>Two seperate Mobile Apps projects (GPS locator and an mp3 music player) </i></p>
-       
-      </div>
-    </div>
-
-    <div class="w3-container w3-padding-32" id="webDev">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Web Development</h3>
       <div class="w3-container w3-padding-48 w3-card w3-center">
-        <h5 style="text-align:center;">Website accesing SQL Database & Server</h5>
+        <h5 style="text-align:center;">Home Assistant Automation</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/HomeAssistant_Automation.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>A Home Assistant project controlling device from cloud </i></p>
+      </div>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Data to Twitter</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/Data2twitter.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>Coffee Machine Simulator Project (Data collection from Raspberry PI & Arduino to Twitter using API) </i></p>
+      </div>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">IOT Project</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/Iot 2024 Final.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>This project combines a Raspberry Pi with Sense HAT sensors, an ESP8266 module, and an Android app 
+          to create an interactive environmental monitoring and control system. Utilizing cloud-based channels (Node RED), it offers 
+         a customizable access to IoT hardware, ensuring a seamless experience for tracking parameters 
+          like temperature, humidity, and body movement. </i></p>
+      </div>
+
+    </div>
+
+          <!-- Mobile App -->
+    <div class="w3-container w3-padding-32" id="mobileApps">
+      <h3 class="w3-border-bottom w3-border-purple w3-padding-16">Mobile App</h3>
+      
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Mp3 Player App</h5>
+              <video width="75%" height="75%" controls="">
+                <source src="video/Music Player.mp4" type="video/mp4">
+              </video>        
+              <p class="w3-tiny w3-center"><i>Mini Mp3 Player Mobile App project </i></p>    
+       </div>
+
+
+    </div>
+
+          <!-- WebDev & Databases -->
+    <div class="w3-container w3-padding-32" id="webDev">
+      <h3 class="w3-border-bottom w3-border-purple w3-padding-16">Web Development & Databases</h3>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Website Integrated with SQL Database and Server</h5>
         <video width="75%" height="75%" controls="">
           <source src="video/WebDev.mp4" type="video/mp4">
         </video>
         <p class="w3-tiny"><i>Web Development project manipulation of data on the website using PHP scripts</i></p>
       </div>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Neo4j Graph database</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/Neo4j_grapghDB.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>Mini Neo4j project for retrieving and manage data queries uses graph structures with nodes, 
+          relationships, and properties to represent and store data for a guitar music shop.</i></p>
+      </div>
+
+      <div class="w3-container w3-padding-48 w3-card w3-center">
+        <h5 style="text-align:center;">Database & Server</h5>
+        <video width="75%" height="75%" controls="">
+          <source src="video/ServerDatabase.mp4" type="video/mp4">
+        </video>
+        <p class="w3-tiny"><i>Creating a database in MySQL and Manipulation of data from server with PHP</i></p>
+      </div>
+
     </div>
 
     <!-- End page content -->
@@ -183,10 +243,9 @@
     <br>
     <span class="contact-links">
       <a href="https://www.linkedin.com/in/eric-niee-115805235" target="_blank" style="text-decoration: none;">
-          <i class="fa fa-linkedin" style="color: #0077B5;"></i> LinkedIn</a>
-      
-      <a href="mailto:A00287788@student.tus.ie" style="text-decoration: none; margin-left: 10px;">
-          <i class="fa fa-envelope" style="color: #FF5733;"></i> Email</a>          
+          <i class="fa fa-linkedin" style="color: #0077B5;"></i> LinkedIn</a>    
+          <a href="mailto:nieeeric@gmail.com" style="text-decoration: none; margin-left: 10px;">
+            <i class="fa fa-envelope" style="color: #FF5733;"></i> Email</a>                    
     </span>
   </p>
 </footer>
